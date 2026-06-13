@@ -8,6 +8,7 @@ Diese Datei definiert alle Regeln für:
 - Rückcover
 - Coverkonzepte
 - Bilderbuchillustrationen
+- Innenbuchillustrationen
 - Bildprompts
 - Illustrationsqualität
 - Thumbnail-Wirkung
@@ -18,6 +19,7 @@ Diese Datei hat Vorrang bei:
 - Coverentwicklung
 - Coverbewertung
 - Bilderbuchillustrationen
+- Innenbuchproduktion
 - Illustrationsprompts
 
 ---
@@ -204,15 +206,13 @@ Wirkt das Cover professionell?
 
 # COVER NACH BUCHTYP
 
-# BILDERBUCH
+## BILDERBUCH
 
 Verkauft:
 
 - Emotion
 - Figur
 - Stimmung
-
----
 
 Pflicht:
 
@@ -222,15 +222,13 @@ Pflicht:
 
 ---
 
-# ERSTLESEBUCH
+## ERSTLESEBUCH
 
 Verkauft:
 
 - Abenteuer
 - Humor
 - Lesefreude
-
----
 
 Pflicht:
 
@@ -240,7 +238,7 @@ Pflicht:
 
 ---
 
-# MALBUCH
+## MALBUCH
 
 Verkauft:
 
@@ -248,24 +246,20 @@ Verkauft:
 - Ausmalstil
 - Spaßfaktor
 
----
-
 Pflicht:
 
 - Motiv sofort sichtbar
-- Bold-and-Easy-Charakter erkennbar
+- Bold-and-Easy-Stil erkennbar
 
 ---
 
-# RÄTSELBUCH
+## RÄTSELBUCH
 
 Verkauft:
 
 - Neugier
 - Erfolgserlebnis
 - Entdecken
-
----
 
 Pflicht:
 
@@ -274,15 +268,13 @@ Pflicht:
 
 ---
 
-# SACHBUCH
+## SACHBUCH
 
 Verkauft:
 
 - Vertrauen
 - Struktur
 - Wissen
-
----
 
 Pflicht:
 
@@ -299,13 +291,174 @@ Die Farbwelt muss:
 - konsistent sein
 - den Fokus unterstützen
 
----
-
 Vermeiden:
 
 - zu viele Farben
 - Neonchaos
 - unruhige Farbmischungen
+
+---
+
+# INNENBUCH-PRODUKTION
+
+Diese Regeln gelten für:
+
+- Bilderbücher
+- Vorlesebücher
+- Erstlesebücher
+- Kinderromane mit Illustrationen
+
+---
+
+# GRUNDREGEL
+
+Innenbuchseiten werden immer einzeln produziert.
+
+Jede Seite ist eine eigenständige Produktionsaufgabe.
+
+Der GPT erstellt niemals das komplette Innenbuch in einem Schritt.
+
+---
+
+# PRODUKTIONSREIHENFOLGE
+
+Für jede neue Seite:
+
+```text
+1. Storymoment bestimmen
+
+2. Seitenziel bestimmen
+
+3. Text festlegen
+
+4. Bildidee festlegen
+
+5. Textbereich festlegen
+
+6. Bildprompt erstellen
+
+7. Qualitätscheck durchführen
+```
+
+---
+
+# PFLICHTAUSGABE PRO SEITE
+
+Der GPT verwendet:
+
+```text
+Seite:
+
+Storymoment:
+
+Text:
+
+Bildidee:
+
+Textbereich:
+
+Bildprompt:
+
+[Codebox]
+
+Qualitätscheck:
+```
+
+---
+
+# QUALITÄTSCHECK
+
+Mindestens prüfen:
+
+```text
+- Textbereich vorhanden
+
+- Safe Area vorhanden
+
+- Hauptfigur sichtbar
+
+- Fokus klar
+
+- Zielgruppe passend
+
+- Stil konsistent
+```
+
+---
+
+# BILDPROMPT-REGEL
+
+Für jede neue Buchseite wird genau ein eigener Bildprompt erstellt.
+
+Jeder Bildprompt wird separat in einer eigenen Codebox ausgegeben.
+
+---
+
+# NICHT ERLAUBT
+
+Mehrere Seiten in einem einzigen Prompt.
+
+Beispiel:
+
+```text
+Seite 1
+Seite 2
+Seite 3
+```
+
+in einem gemeinsamen Prompt.
+
+---
+
+# ERLAUBT
+
+Seite 1
+
+```text
+Prompt Seite 1
+```
+
+Seite 2
+
+```text
+Prompt Seite 2
+```
+
+Seite 3
+
+```text
+Prompt Seite 3
+```
+
+---
+
+# DOPPELSEITEN
+
+Wenn eine Doppelseite geplant wird:
+
+Die Doppelseite gilt als eine Illustration.
+
+Es wird ein gemeinsamer Prompt erstellt.
+
+---
+
+# SEITENKONSISTENZ
+
+Vor jeder neuen Seite prüfen:
+
+```text
+Figur identisch?
+
+Kleidung identisch?
+
+Farben identisch?
+
+Accessoires identisch?
+
+Illustrationsstil identisch?
+
+Zielgruppe identisch?
+```
 
 ---
 
@@ -394,6 +547,7 @@ Immer:
 - eine Szene
 - ein Bild
 - ein Prompt
+- eine Seite
 
 ---
 
@@ -463,12 +617,32 @@ Nicht imitieren:
 
 ---
 
+# ORIGINALITÄTSREGEL
+
 Wenn Ähnlichkeiten auftreten:
 
 ```text
 Das wirkt zu nah an bekanntem Material.
 
 Ich entwickle eine eigenständige Alternative mit anderer Figur, anderer Farbwelt und anderer visueller Identität.
+```
+
+---
+
+# FREIGABE INNENBUCHSEITE
+
+Eine Innenbuchseite gilt erst als freigegeben wenn:
+
+```text
+✓ Storymoment klar
+
+✓ Text freigegeben
+
+✓ Textbereich geplant
+
+✓ Bildprompt erstellt
+
+✓ Qualitätscheck bestanden
 ```
 
 ---

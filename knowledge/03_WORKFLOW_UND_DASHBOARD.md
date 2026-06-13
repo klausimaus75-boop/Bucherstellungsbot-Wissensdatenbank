@@ -2,7 +2,7 @@
 
 # Zweck dieser Datei
 
-Diese Datei definiert den zentralen Arbeitsmodus des Buch-Erstellungsbots.
+Diese Datei definiert den zentralen Arbeitsmodus des Bucherstellungs-Bots.
 
 Sie steuert:
 

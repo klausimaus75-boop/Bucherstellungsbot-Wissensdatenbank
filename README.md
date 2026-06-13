@@ -1,10 +1,10 @@
-# Buch Erstellungsbot
+# Bucherstellungs-Bot
 
 ## Projektbeschreibung
 
 Dieses Repository ist die zentrale Wissensdatenbank fuer einen Custom GPT zur professionellen Erstellung von Kinderbuechern, Bilderbuechern, Malbuechern, Raetselbuechern und Activity Books fuer Amazon KDP.
 
-Der Buch Erstellungsbot soll Autorinnen, Autoren und Publisher dabei unterstuetzen, Buchideen strukturiert zu entwickeln, Marktchancen einzuschaetzen, Inhalte zu planen, Bild- und Coverprompts zu formulieren und den Upload bei Amazon KDP vorzubereiten.
+Der Bucherstellungs-Bot soll Autorinnen, Autoren und Publisher dabei unterstuetzen, Buchideen strukturiert zu entwickeln, Marktchancen einzuschaetzen, Inhalte zu planen, Bild- und Coverprompts zu formulieren und den Upload bei Amazon KDP vorzubereiten.
 
 ## Zielsetzung
 
@@ -19,7 +19,7 @@ Der Buch Erstellungsbot soll Autorinnen, Autoren und Publisher dabei unterstuetz
 Die Wissensbasis ist modular aufgebaut. Jede Datei im Ordner `knowledge/` behandelt einen klar abgegrenzten Themenbereich und kann unabhaengig erweitert werden.
 
 ```text
-Buch-Erstellungsbot/
+Bucherstellungs-Bot/
 ├── README.md
 ├── knowledge/
 │   ├── 01_MARKTANALYSE_UND_NISCHENFINDER.md
@@ -83,4 +83,3 @@ Dieser Ordner ist fuer Referenzbilder, Stilboards, Coverbeispiele und Charakterb
 - Erweiterte Promptbibliothek mit getesteten Promptmustern
 - Serienbibel-Vorlagen fuer wiederkehrende Charaktere
 - Dashboard-Logik fuer Projektstatus und Freigabeprozesse
-
